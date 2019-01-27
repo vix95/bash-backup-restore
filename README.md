@@ -32,22 +32,22 @@ A script has methods:
 
 ## Examples
 Some examples to test script.
-> $ bash backup.sh
-> $ bash backup.sh --backup --name='newname'
-> $ bash backup.sh --backup --full-interval=15
-> $ bash backup.sh --backup --inc-interval=1
-> $ bash backup.sh --backup --path='/home/vix/backup/randomdir'
-> $ bash backup.sh --backup --backup-dir='/home/vix/backup/new-backup-dir'
-> $ bash backup.sh --backup --gzip
-> $ bash backup.sh --backup --ext=php,js
-> $ bash backup.sh --restore
-> $ bash backup.sh --restore --name=111
-> $ bash backup.sh --restore --out-dir='/home/vix/backup/new_out-dir'
-> $ bash backup.sh --backup --name='new_backup' --full-interval=10 --inc-interval=4
-> $ bash backup.sh --backup
-> $ bash backup.sh --backup --path='/home/vix/backup/random_dir'
-> $ bash backup.sh --backup --path='/home/vix/backup/random_dir' --name='new_backup'
-> $ bash backup.sh --backup --inc-days=1
-> $ bash backup.sh --backup --break-time=20
-> $ bash backup.sh --show-settings
-> $ bash backup.sh --restore --date=2019_01_26_22_32
+> $ bash backup.sh<br />
+> $ bash backup.sh --backup --name='newname'<br />
+> $ bash backup.sh --backup --full-interval=15<br />
+> $ bash backup.sh --backup --inc-interval=1<br />
+> $ bash backup.sh --backup --path='/home/vix/backup/randomdir'<br />
+> $ bash backup.sh --backup --backup-dir='/home/vix/backup/new-backup-dir'<br />
+> $ bash backup.sh --backup --gzip<br />
+> $ bash backup.sh --backup --ext=php,js<br />
+> $ bash backup.sh --restore<br />
+> $ bash backup.sh --restore --name=111<br />
+> $ bash backup.sh --restore --out-dir='/home/vix/backup/new_out-dir'<br />
+> $ bash backup.sh --backup --name='new_backup' --full-interval=10 --inc-interval=4<br />
+> $ bash backup.sh --backup<br />
+> $ bash backup.sh --backup --path='/home/vix/backup/random_dir'<br />
+> $ bash backup.sh --backup --path='/home/vix/backup/random_dir' --name='new_backup'<br />
+> $ bash backup.sh --backup --inc-days=1<br />
+> $ bash backup.sh --backup --break-time=20<br />
+> $ bash backup.sh --show-settings<br />
+> $ bash backup.sh --restore --date=2019_01_26_22_32<br />
