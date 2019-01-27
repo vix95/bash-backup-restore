@@ -4,10 +4,10 @@ A script for creating full or incremental backups. Based on sleep method or corn
 ## CRON
 Step by step how to run script by cron
 
-> $ crontab -e
-> */1 * * * * bash /home/vix/backup/backup.sh --backup --cron
-> $ sudo /etc/init.d/cron start
-> $ sudo /etc/init.d/cron stop
+> $ crontab -e<br />
+> */1 * * * * bash /home/vix/backup/backup.sh --backup --cron<br />
+> $ sudo /etc/init.d/cron start<br />
+> $ sudo /etc/init.d/cron stop<br />
 
 ## Manual
 A script has methods:
